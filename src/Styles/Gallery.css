@@ -1,95 +1,94 @@
-
 @keyframes photo-card-move {
-    from {
-      border-bottom: 50px solid #000000;
-      border-top: #000000 5px solid;
-      border-left: 3px solid #000000;
-      border-right: 3px solid #000000;
-    }
-    to {
-      border-bottom: 50px solid #ffffff;
-      border-top: #ffffff 5px solid;
-      border-left: 3px solid #ffffff;
-      border-right: 3px solid #ffffff;
-    }
+  from {
+    border-bottom: 50px solid #000000;
+    border-top: #000000 5px solid;
+    border-left: 3px solid #000000;
+    border-right: 3px solid #000000;
   }
-  .photo-card {
+  to {
     border-bottom: 50px solid #ffffff;
     border-top: #ffffff 5px solid;
     border-left: 3px solid #ffffff;
     border-right: 3px solid #ffffff;
-    border-radius: 5px;
-    margin: 20px;
-    box-shadow: 5px 10px 5px #14141452;
+  }
+}
+.photo-card {
+  border-bottom: 50px solid #ffffff;
+  border-top: #ffffff 5px solid;
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: 5px 10px 5px #14141452;
+  background-color: #fff;
+  display: flex;
+  animation: photo-card-move 3s;
+}
+.photo-card:hover {
+  border-bottom: 50px solid #ffffff;
+  border-top: #ffffff 5px solid;
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  border-radius: 5px;
+  margin: 20px;
+  box-shadow: 5px 10px 5px #14141452;
+  background-color: #fff;
+  display: flex;
+}
+@keyframes gallery-bg-move {
+  from {
     background-color: #fff;
-    display: flex;
-    animation: photo-card-move 3s;
   }
-  .photo-card:hover {
-    border-bottom: 50px solid #ffffff;
-    border-top: #ffffff 5px solid;
-    border-left: 3px solid #ffffff;
-    border-right: 3px solid #ffffff;
-    border-radius: 5px;
-    margin: 20px;
-    box-shadow: 5px 10px 5px #14141452;
-    background-color: #fff;
-    display: flex;
-  }
-  @keyframes gallery-bg-move {
-    from {
-      background-color: #fff;
-    }
-    to {
-      background-color: #ffb800;
-    }
-  }
-  .gallery-bg {
+  to {
     background-color: #ffb800;
-    animation: gallery-bg-move 3s;
   }
-  .gallery-title {
+}
+.gallery-bg {
+  background-color: #ffb800;
+  animation: gallery-bg-move 3s;
+}
+.gallery-title {
+  color: #141414;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  animation: gallery-title-move 3s;
+}
+@keyframes gallery-title-move {
+  from {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  to {
     color: #141414;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 32px;
-    animation: gallery-title-move 3s;
   }
-  @keyframes gallery-title-move {
-    from {
-      color: #ffffff;
-      font-family: "Poppins", sans-serif;
-      font-weight: 700;
-      font-size: 20px;
-    }
-    to {
-      color: #141414;
-      font-family: "Poppins", sans-serif;
-      font-weight: 700;
-      font-size: 32px;
-    }
+}
+.gallery-title_mobile {
+  color: #141414;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  animation: gallery-title_mobile-move 3s;
+}
+@keyframes gallery-title_mobile-move {
+  from {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
   }
-  .gallery-title_mobile {
+  to {
     color: #141414;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 22px;
-    animation: gallery-title_mobile-move 3s;
   }
-  @keyframes gallery-title_mobile-move {
-    from {
-      color: #ffffff;
-      font-family: "Poppins", sans-serif;
-      font-weight: 700;
-      font-size: 20px;
-    }
-    to {
-      color: #141414;
-      font-family: "Poppins", sans-serif;
-      font-weight: 700;
-      font-size: 22px;
-    }
-  }
+}
 
 @keyframes photo-card_mobile-move {
   from {
