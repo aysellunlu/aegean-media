@@ -1,6 +1,7 @@
 import React from "react";
 import { Image } from "react-bootstrap";
 import Software from "../img/software.png";
+import '../Styles/Projects.css';
 
 const Projects = () => {
   return (

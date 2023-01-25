@@ -1,0 +1,37 @@
+.header {
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+  }
+  .navbar-brand {
+    color: #ffffff !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+  }
+  .navbar-brand:hover {
+    color: #ffb800 !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600 !important;
+    transition: 1s;
+  }
+  .navbar-toggler-icon {
+    color: #ffb800 !important;
+    font-family: "Poppins", sans-serif;
+  }
+  .nav-link {
+    color: #fff !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px !important;
+  }
+  .nav-link:hover {
+    color: #ffb800 !important;
+    font-family: "Poppins", sans-serif;
+    transition: 1s;
+  }
+  
+  .navbar-dark {
+    background-color: #141414 !important;
+  }
+  

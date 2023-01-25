@@ -1,0 +1,54 @@
+.background-black {
+  background-color: #141414;
+  animation: contactmove 3s;
+}
+
+@keyframes contactmove {
+  from {
+    background-color: #ffb800;
+  }
+  to {
+    background-color: #141414;
+  }
+}
+.background-black {
+  background-color: #141414;
+  animation: contactmove 3s;
+}
+
+.contact-title {
+  color: #ffb800;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+.contact-title_mobile {
+  color: #ffb800;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+.contact-text {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+.contact-text_mobile {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+.contact-white-text {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+.contact-white-text_mobile {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}

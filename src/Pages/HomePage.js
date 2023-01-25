@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Image, Button } from "react-bootstrap";
 import Play from "../img/Play.png";
+import "../Styles/HomePage.css";
 
 const HomePage = () => {
   const [width, setWidth] = useState("");
