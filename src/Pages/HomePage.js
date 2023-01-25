@@ -45,8 +45,8 @@ const HomePage = () => {
               <Button className="main-button_mobile">LETS GO!</Button>
             </div>
             <div className=" p-0 pb-4">
-                <Image src={Play} width="90%" />
-              </div>
+              <Image src={Play} width="90%" />
+            </div>
           </div>
         </div>
       )}

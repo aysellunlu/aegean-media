@@ -1,16 +1,18 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import Software from '../img/software.png';
+import Software from "../img/software.png";
 
 const Projects = () => {
   return (
     <div className="container-fluid ">
       <div className="project-title pb-4 pt-4">OUR WORK & PROJECTS</div>
-      <div className="project-second-title">Web / Mobile Application Development</div>
-     
+      <div className="project-second-title">
+        Web / Mobile Application Development
+      </div>
+
       <div className="row mt-4 mb-4">
         <div className="col-lg-4 col-sm-12">
-        <Image src={Software} width={450}/>
+          <Image src={Software} width={450} />
         </div>
         <div className="col-lg-8 col-sm-12">
           <div className="project-text">

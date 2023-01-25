@@ -13,7 +13,6 @@ function Header() {
             <Nav.Link href="/about-us">About Us</Nav.Link>
             <Nav.Link href="/gallery">Gallery</Nav.Link>
             <Nav.Link href="/projects">Our Work & Projects</Nav.Link>
-            
           </Nav>
           <Nav>
             <Nav.Link href="/contact">Contact</Nav.Link>
