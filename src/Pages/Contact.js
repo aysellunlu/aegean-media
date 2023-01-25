@@ -69,7 +69,9 @@ const Contact = () => {
       )}
       {width <= 425 && (
         <div>
-          <div className="contact-title_mobile text-center mb-4 mt-4 pb-4 pt-4">CONTACT</div>
+          <div className="contact-title_mobile text-center mb-4 mt-4 pb-4 pt-4">
+            CONTACT
+          </div>
           <div className="contact-white-text_mobile text-center mb-4 pb-4">
             You can follow us on social media and you can reach us from any
             platform you want.
@@ -108,9 +110,9 @@ const Contact = () => {
               </a>
             </div>
             <div className="contact-text_mobile mt-4 text-center">
-                contact@aegeanmedia.com
-              </div>
-              <div className="contact-text_mobile mt-4 text-center">Turkey</div>
+              contact@aegeanmedia.com
+            </div>
+            <div className="contact-text_mobile mt-4 text-center">Turkey</div>
           </div>
         </div>
       )}
