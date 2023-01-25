@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Image } from "react-bootstrap";
 import LogoWhite from "../img/LogoWhite.png";
+import "../Styles/AboutUs.css";
 
 const AboutUs = () => {
   const [width, setWidth] = useState("");

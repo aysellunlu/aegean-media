@@ -5,6 +5,8 @@ import Behance from "../img/behance.png";
 import Github from "../img/github.png";
 import Facebook from "../img/facebook.png";
 import Medium from "../img/medium.png";
+import '../Styles/Contact.css';
+
 
 import { Image } from "react-bootstrap";
 const Contact = () => {

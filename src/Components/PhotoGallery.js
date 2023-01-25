@@ -1,5 +1,6 @@
 import React from "react";
 import { Image } from "react-bootstrap";
+import "../Styles/Gallery.css";
 import P1 from "../img/1.jpeg";
 import P2 from "../img/2.jpeg";
 import P3 from "../img/3.jpeg";
