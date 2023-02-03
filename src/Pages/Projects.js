@@ -1,28 +1,32 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Image, Accordion } from "react-bootstrap";
 import Software from "../img/software.png";
 import "../Styles/Projects.css";
 import "../Styles/Accordion.css";
 
 const Projects = () => {
+  const [width, setWidth] = useState("");
+
+  useEffect(() => {
+    setWidth(window.innerWidth);
+    console.log(width);
+  }, [width]);
   return (
     <div className="container-fluid ">
       <div className="project-title pb-4 pt-4 mb-4">OUR WORK & PROJECTS</div>
 
       <div className="row mt-4 mb-4 pb-5">
-        <Accordion
-        defaultActiveKey="0"
-        >
+        <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey="0">
             <Accordion.Header className="project-second-title">
               Web / Mobile Application Development
             </Accordion.Header>
             <Accordion.Body className="project-text">
               <div className="row">
-                <div className="col-4">
-                  <Image src={Software} width={450} />
+                <div className="col-lg-4 col-sm-12">
+                  <Image src={Software} width="100%" />
                 </div>
-                <div className="col-8">
+                <div className="col-lg-8 col-sm-12 pb-4 pt-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -41,10 +45,10 @@ const Projects = () => {
             </Accordion.Header>
             <Accordion.Body className="project-text">
               <div className="row">
-                <div className="col-4">
-                  <Image src={Software} width={450} />
+                <div className="col-lg-4 col-sm-12">
+                  <Image src={Software} width="100%" />
                 </div>
-                <div className="col-8">
+                <div className="col-lg-8 col-sm-12 pb-4 pt-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -63,10 +67,10 @@ const Projects = () => {
             </Accordion.Header>
             <Accordion.Body className="project-text">
               <div className="row">
-                <div className="col-4">
-                  <Image src={Software} width={450} />
+                <div className="col-lg-4 col-sm-12">
+                  <Image src={Software} width="100%" />
                 </div>
-                <div className="col-8">
+                <div className="col-lg-8 col-sm-12 pb-4 pt-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -85,10 +89,10 @@ const Projects = () => {
             </Accordion.Header>
             <Accordion.Body className="project-text">
               <div className="row">
-                <div className="col-4">
-                  <Image src={Software} width={450} />
+                <div className="col-lg-4 col-sm-12">
+                  <Image src={Software} width="100%" />
                 </div>
-                <div className="col-8">
+                <div className="col-lg-8 col-sm-12 pb-4 pt-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -107,10 +111,10 @@ const Projects = () => {
             </Accordion.Header>
             <Accordion.Body className="project-text">
               <div className="row">
-                <div className="col-4">
-                  <Image src={Software} width={450} />
+                <div className="col-lg-4 col-sm-12">
+                  <Image src={Software} width="100%" />
                 </div>
-                <div className="col-8">
+                <div className="col-lg-8 col-sm-12 pb-4 pt-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -129,10 +133,10 @@ const Projects = () => {
             </Accordion.Header>
             <Accordion.Body className="project-text">
               <div className="row">
-                <div className="col-4">
-                  <Image src={Software} width={450} />
+                <div className="col-lg-4 col-sm-12">
+                  <Image src={Software} width="100%" />
                 </div>
-                <div className="col-8">
+                <div className="col-lg-8 col-sm-12 pb-4 pt-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -147,7 +151,7 @@ const Projects = () => {
           </Accordion.Item>
         </Accordion>
         {/* <div className="col-lg-4 col-sm-12">
-          <Image src={Software} width={450} />
+          <Image src={Software} width="100%" />
         </div> */}
         {/* <div className="project-second-title">
           Web / Mobile Application Development
